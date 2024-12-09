@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Школа Программирования</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в школу программирования</h1>
+        <nav>
+            <ul>
+                <li><a href="#courses">Курсы</a></li>
+                <li onclick="enroll('about us.html')"><a href="#about">О нас</a></li>
+                <li onclick="enroll('contact.html')"><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="courses">
+            <h2>Курсы</h2>
+            <div class="course">
+                <h3>Основы Python</h3>
+                <p>От 6000 ₽/мес.</p>
+                <button onclick="enroll('eeee.html')">Записаться</button>
+                <button onclick="enroll('python.html')">Подробнее</button>
+                
+
+            </div>
+            <div class="course">
+                <h3>Веб-разработка</h3>
+                <p>От 5500 ₽/мес.</p>
+                <button onclick="enroll('eeee.html')">Записаться</button>
+                <button onclick="enroll('web-development.html')">Подробнее</button>
+            </div>
+            <div class="course">
+                <h3>Машинное обучение</h3>
+                <p>От 8000 ₽/мес.</p>
+                <button onclick="enroll('eeee.html')">Записаться</button>
+                <button onclick="enroll('machine-learning.html')">Подробнее</button>
+            </div>
+            <div class="course">
+                <h3>Разработка мобильных приложений</h3>
+                <p>От 5000 ₽/мес.</p>
+                <button onclick="enroll('eeee.html')">Записаться</button>
+                <button onclick="enroll('mobile-development.html')">Подробнее</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Школа Программирования</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
